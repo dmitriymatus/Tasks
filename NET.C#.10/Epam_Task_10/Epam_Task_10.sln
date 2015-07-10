@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam_Task_10_Library", "Epam_Task_10_Library\Epam_Task_10_Library.csproj", "{AFE8A996-C392-49D4-8FC1-D5411272DC35}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam_Task_10_ConsoleApplication", "Epam_Task_10_ConsoleApplication\Epam_Task_10_ConsoleApplication.csproj", "{D60F43F2-290E-48A8-B693-D6CA8318DDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Epam_Task10_WpfApplication", "Epam_Task10_WpfApplication\Epam_Task10_WpfApplication.csproj", "{E57ED9C2-9958-4F4E-9783-9441F4C6A9C6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AFE8A996-C392-49D4-8FC1-D5411272DC35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFE8A996-C392-49D4-8FC1-D5411272DC35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFE8A996-C392-49D4-8FC1-D5411272DC35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFE8A996-C392-49D4-8FC1-D5411272DC35}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D60F43F2-290E-48A8-B693-D6CA8318DDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D60F43F2-290E-48A8-B693-D6CA8318DDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D60F43F2-290E-48A8-B693-D6CA8318DDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D60F43F2-290E-48A8-B693-D6CA8318DDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E57ED9C2-9958-4F4E-9783-9441F4C6A9C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E57ED9C2-9958-4F4E-9783-9441F4C6A9C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E57ED9C2-9958-4F4E-9783-9441F4C6A9C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E57ED9C2-9958-4F4E-9783-9441F4C6A9C6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

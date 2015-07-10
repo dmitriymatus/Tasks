@@ -1,0 +1,19 @@
+﻿<Window x:Class="Epam_Task3_WpfApplication.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:chartingToolkit="clr-namespace:System.Windows.Controls.DataVisualization.Charting;assembly=System.Windows.Controls.DataVisualization.Toolkit" xmlns:System="clr-namespace:System;assembly=mscorlib"
+        Title="Window1" Height="518.375" Width="746.289">
+    <Grid Margin="0,0,2,1">
+        <chartingToolkit:Chart x:Name="Chart1" HorizontalAlignment="Left" Height="467" Margin="10,10,0,0" Title="Work time, Milliseconds*1000" VerticalAlignment="Top" Width="716">
+            <chartingToolkit:Chart.DataContext>
+                <PointCollection>1,10 2,20 3,30 4,40</PointCollection>
+            </chartingToolkit:Chart.DataContext>
+            <chartingToolkit:ColumnSeries DependentValuePath="X" IndependentValuePath="Y" ItemsSource="{Binding}" Title="1. Метод реализующий алгоритм Евклида "/>
+            <chartingToolkit:ColumnSeries DependentValueBinding="{x:Null}" DependentValuePath="{x:Null}" IndependentValueBinding="{x:Null}" IndependentValuePath="{x:Null}" SeriesHost="{x:Null}" Title="2. Метод, реализующий бинарный алгоритм Эвклида">
+                <chartingToolkit:ColumnSeries.Clip>
+                    <RectangleGeometry/>
+                </chartingToolkit:ColumnSeries.Clip>
+            </chartingToolkit:ColumnSeries>
+        </chartingToolkit:Chart>
+    </Grid>
+</Window>

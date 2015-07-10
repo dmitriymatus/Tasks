@@ -1,0 +1,21 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:System="clr-namespace:System;assembly=mscorlib" x:Class="EPAM_Task1_WpfApplication.MainWindow"
+        Title="MainWindow" Height="400" Width="525">
+    <Grid Margin="0,0,-8,-1">
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="#FF0096AE" Offset="0"/>
+                <GradientStop Color="#FFACFFE8" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name ="Button1" Content="OK" HorizontalAlignment="Left" Height="28" Margin="152,130,0,0" VerticalAlignment="Top" Width="160" Click="Button_Click"/>
+        <Label Content="Введите числа&#xA;" HorizontalAlignment="Left" Height="44" Margin="61,10,0,0" VerticalAlignment="Top" Width="171"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Height="47" Margin="61,150,0,0" VerticalAlignment="Top" Width="171"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="140" Margin="71,179,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="351" MaxLines="100" ScrollViewer.VerticalScrollBarVisibility="Auto"/>
+        <RichTextBox x:Name="RichTextBox1" HorizontalAlignment="Left" Height="89" Margin="71,36,0,0" VerticalAlignment="Top" Width="351" ScrollViewer.VerticalScrollBarVisibility="Auto">
+            <FlowDocument/>
+        </RichTextBox>
+    </Grid>
+</Window>
